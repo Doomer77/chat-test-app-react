@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 0;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 1rem;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  outline: none;
+  border: none;
+  background: rgba(255, 255, 255, 0.5);
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  color: aliceblue;
+  font-size: 1rem;
+  transition: all 0.5s;
+}
+
+.btn:hover {
+  background: rgba(255, 255, 255, 1);
+  color: rgb(238, 174, 202);
+  cursor: pointer;
+}

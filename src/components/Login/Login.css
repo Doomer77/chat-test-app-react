@@ -1,0 +1,32 @@
+.login {
+  width: 100%;
+  height: calc(100vh);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(241, 63, 230);
+  background: linear-gradient(
+    180deg,
+    rgba(241, 63, 230, 0.8603816526610644) 46%,
+    rgba(80, 141, 236, 0.8911939775910365) 68%,
+    rgba(63, 142, 221, 0.8631827731092436) 95%
+  );
+}
+
+.btn-google {
+  padding: 1rem 2rem;
+  outline: none;
+  border: none;
+  background: rgba(255, 255, 255, 0.5);
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  color: aliceblue;
+  font-size: 1rem;
+  transition: all 0.5s;
+}
+
+.btn-google:hover {
+  background: rgba(255, 255, 255, 1);
+  color: rgb(238, 174, 202);
+  cursor: pointer;
+}
